@@ -43,7 +43,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
     return (
         <div className='border-0 rounded p-4 shadow-xl hover:shadow-2xl transition '>
-            <img src={product.image} className='w-full h-60 object-cover mb-2 rounded' alt={product.name} />
+            <img src={product.image} className='w-full h-80 object-cover mb-2 rounded' alt={product.name} />
             <h2 className='text-large font-bold'>{product.name}</h2>
             <p className='text-sm text-gray-600'>${product.price}</p>
 

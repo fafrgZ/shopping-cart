@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../hooks/useCart';
 import { FaShoppingCart } from 'react-icons/fa';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import Logo from '../assets/logo2.png';
+import Logo from '../assets/logo.png';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -23,8 +23,8 @@ const Navbar = () => {
 
                 {/* Menú Desktop */}
                 <ul className='hidden md:flex items-center gap-6 text-black'>
-                    <li><Link to='/productos' className='hover:text-[#3b3b91]'>Productos</Link></li>
-                    <li><Link to='/contacto' className='hover:text-[#3b3b91]'>Contacto</Link></li>
+                    <li><Link to='/productos' className='hover:text-[#10233d] text-xl'>Productos</Link></li>
+                    <li><Link to='/contacto' className='hover:text-[#10233d] text-xl'>Contacto</Link></li>
                     <li>
                         <Link to='/cart' className='relative'>
                             <FaShoppingCart className='w-6 h-6' />

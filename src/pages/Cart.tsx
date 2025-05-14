@@ -16,7 +16,7 @@ const Cart = () => {
                 <>
                     <ul className="">
                         {cartItems.map((item) => (
-                            <li key={item.id} className="flex items-center py-4 bg-amber-50 shadow-2xl m-2 border-0 rounded">
+                            <li key={item.id} className="flex items-center py-4 bg-white shadow-2xl m-2 border-0 rounded">
                                 <img src={item.image} alt={item.name} className="w-40 h-40 object-contain mx-4"/>
                                 <div className="flex flex-col justify-between h-41">
                                     <h2 className="font-bold flex-start">{item.name}</h2>
@@ -37,7 +37,7 @@ const Cart = () => {
 
                     <div className="mt-6 text-rigth">
                         <p className="text-xl font-bold">Total: ${total.toFixed(2)}</p>
-                        <button className="mt-4 px-6 py-2 bg-[#3b3b91] text-white rounded">Finalizar compra</button>
+                        <button className="mt-4 px-6 py-2 bg-[#10233d] text-white rounded">Finalizar compra</button>
                     </div>
                 </>
             )}

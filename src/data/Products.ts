@@ -1,7 +1,7 @@
 import { Product } from '../types/Product'
 import  Iphone  from '../assets/Apple-iPhone-15-Pro.jpg'
-import Tv from '../assets/smart-tv.jpg'
-import Pc from '../assets/pc-gamer.jpg'
+import Tv from '../assets/tv.png'
+import Pc from '../assets/pc-gamer.png'
 
 export const Products: Product[] = [
     {
